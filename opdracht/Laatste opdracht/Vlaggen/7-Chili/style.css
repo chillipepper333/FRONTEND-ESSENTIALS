@@ -1,0 +1,83 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#bovenkant{
+    width: 900px;
+    height: 50%;
+}
+
+#linksboven{
+    width: 25%;
+    height: 100%;
+    background-color:rgb(13, 13, 197);
+    display: inline-block;
+    flex-direction: row;
+}
+
+#star-five {
+    margin: 100px 14px;
+    position: relative;
+    display: block;
+    color: white;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid white;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+  }
+  #star-five:before {
+    border-bottom: 80px solid white;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  }
+  #star-five:after {
+    position: absolute;
+    display: block;
+    color: white;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid white;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+  }
+
+
+#rechtsboven{
+    width: 75%;
+    height: 100%;
+    background-color: white;
+    display: inline-block;
+    flex-direction: row;
+}
+
+
+#onderkant{
+    width: 900px;
+    height: 50%;
+    background-color:rgb(214, 21, 21);
+}
+

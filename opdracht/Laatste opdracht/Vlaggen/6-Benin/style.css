@@ -1,0 +1,34 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: rgb(252, 200, 29);
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#links{
+    display: inline-block;
+    width: 33%;
+    height: 600px;
+    background-color: rgb(7, 143, 41);
+}
+
+
+
+#rechtsboven{
+    display: inline-block;
+    flex-direction: row;
+    width: 67%;
+    height: 300px;
+    background-color:rgb(211, 13, 13);
+    border-top: 300px yellow;
+}
+
+
+    
