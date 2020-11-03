@@ -7,7 +7,6 @@ ul {
   }
   
   #li {
-    float: left;
     width: 100%;
   }
   
@@ -18,9 +17,10 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    position: top;
   }
   li a:hover {
-    background-color: blue;
+    background-color: rgba(2, 2, 212, 0.849);
   }
 
   #all{
@@ -29,8 +29,13 @@ ul {
     display: inline-flex;
     flex-direction: column;
   }
-  table, th, td,tr {
+  #table, th, td,tr {
     border: 1px solid black;
     background-color: darkcyan;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    Height: 50px;
+    text-align: center;
   }
-

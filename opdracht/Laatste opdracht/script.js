@@ -27,14 +27,17 @@ if(leeftijd == 17){
     document.body.style.backgroundColor = "blue";
 }
 if(leeftijd == 18){
-    document.body.style.backgroundColor = "yellow";
+    document.body.style.backgroundColor = "gold";
 }
 if(leeftijd == 19){
     document.body.style.backgroundColor = "green";
 }
-if(leeftijd== null){
-    document.body.style.backgroundColor = "red";
+if(leeftijd == null){
+    document.body.style.backgroundColor = "chartreuse";
 }
+var element = document.getElementById("id05");
+element.innerHTML = leeftijd;
+
 
 //console
 let bezoeker ={
