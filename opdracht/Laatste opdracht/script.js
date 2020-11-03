@@ -30,7 +30,7 @@ if(leeftijd == 18){
     document.body.style.backgroundColor = "yellow";
 }
 if(leeftijd == 19){
-    document.body.style.backgroundColor = "groen";
+    document.body.style.backgroundColor = "green";
 }
 if(leeftijd== null){
     document.body.style.backgroundColor = "red";
@@ -44,9 +44,12 @@ let bezoeker ={
     woonplaats: woonplaats,
     leeftijd: leeftijd
 }
-console.log(bezoeker)
+console.log(bezoeker);
 
-
-
-
-
+let naam ={
+voornaam, 
+achternaam
+}
+var element = document.getElementById("id06");
+element.innerHTML = voornaam +" "+achternaam
+console.log(naam);
